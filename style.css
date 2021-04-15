@@ -1,9 +1,11 @@
 :root {
     --blue-ttl: #162542;
     --blue-txt: #7B8BAD;
-    --btn-hov: #F16718;
-    --btn-act: #FF9B62;
-    --grey: #E8EFF2;
+    --btn-ora-norm: #F16718;
+    --btn-ora-hovr: #FF9B62;
+    --btn-blu-norm: #E8EFF2;
+    --btn-blu-hovr: #162542;
+    --grey-blue: #E8EFF2;
     --white-txt: #FFFFFF;
 }
 
@@ -119,6 +121,207 @@ h3 {
     =====================
 */
 @media(max-width:480px) {
+main {
+    width: 327px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 31px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.btn-blue {
+    background-color: var(--btn-blu-norm);
+    width: 150px;
+    height: 48px;
+    font-weight: 700;
+    color: var(--blue-ttl);
+    border-radius: 8px;
+}
+.btn-blue:hover {
+    background-color: var(--btn-blu-hovr);
+    color: var(--white-txt);
+}
+.logo {
+    width: 40px;
+    height: 40px;
+}
+header {
+    width: 327px;
+    height: 48px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+    margin-bottom: 64px;
+}
+.top-wrapper p:last-child{
+    text-transform: uppercase;
+    margin-right: 18px;
+}
+.top-wrapper div {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.btn-orange {
+    background-color: var(--btn-ora-norm);
+    width: 150px;
+    height: 48px;
+    font-weight: 700;
+    color: var(--white-txt);
+    border-radius: 8px;
+}
+.btn-orange:hover {
+    background-color: var(--btn-ora-hovr);
+}
+.top-wrapper img {
+    width: 372px;
+    border-radius: 20px;
+    margin-top: 64px;
+    margin-bottom: 19px;
+}
+.mid-wrapper {
+    position: relative;
+}
+.keyb-2 {
+    width: 129px;
+    height: 226px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -48px;
+    margin-right: 24px;
+}
+
+.keyb-3 {
+    width: 220px;
+    height: 226px;
+    border-radius: 20px;
+}
+.mid-imgs {
+    display: flex;  
+}
+.orange-mask {
+    background-color: var(--btn-ora-norm);
+    width: 129px;
+    height: 226px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 0;
+    left: -48px;
+    z-index: 2;
+    mix-blend-mode:multiply;
+    position: absolute;
+}
+
+.mid-wrapper h2 {
+    width: 255px;
+    margin: auto;
+    margin-top: 75px;
+}
+.mid-wrapper p {
+    text-align: center;
+    margin-top: 23px;
+}
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-wrapper h3{
+    width: 190px;
+    margin-bottom: 22px;
+}
+.icon-feat1 {
+    width: 65px;
+    height: 65px;
+    background-color: var(--btn-ora-norm);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 113px;
+    margin-bottom: 50px;
+}
+.icon-feat1 img {
+    color: var(--white-txt);
+    width: 25px;
+    height: 20px;
+}
+.icon-feat2 {
+    width: 65px;
+    height: 65px;
+    background-color: var(--btn-ora-norm);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 50px;
+}
+.icon-feat2 img {
+    color: var(--white-txt);
+    width: 18px;
+    height: 28px;
+}
+.icon-feat3 {
+    width: 65px;
+    height: 65px;
+    background-color: var(--btn-ora-norm);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 50px;
+}
+.icon-feat3 img {
+    color: var(--white-txt);
+    width: 32px;
+    height: 2   0px;
+}
+.icon-feat4 {
+    width: 65px;
+    height: 65px;
+    background-color: var(--btn-ora-norm);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 50px;
+}
+.icon-feat4 img {
+    color: var(--white-txt);
+    width: 32px;
+    height: 32px;
+}
+
+.bottom-wrapper p{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 97px;
+    margin-bottom: 57px;
+}
+footer span {
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+
 
 }
 
