@@ -201,6 +201,7 @@ header {
 }
 .mid-wrapper {
     position: relative;
+    overflow: hidden;
 }
 .keyb-2 img{
     width: 129px;
