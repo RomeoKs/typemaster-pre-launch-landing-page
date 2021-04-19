@@ -173,6 +173,9 @@ header {
     text-transform: uppercase;
     margin-right: 18px;
 }
+.top-wrapper {
+    overflow: hidden;
+}
 .cta-top {
     width: 100%;
     margin: auto;
@@ -198,10 +201,10 @@ header {
     border-radius: 20px;
     margin-top: 64px;
     margin-bottom: 19px;
+    overflow: hidden;
 }
 .mid-wrapper {
     position: relative;
-    overflow: hidden;
 }
 .keyb-2 img{
     width: 129px;
