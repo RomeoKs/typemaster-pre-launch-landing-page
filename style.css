@@ -89,11 +89,6 @@ body {
     color: var(--blue-txt);
     position: relative;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    min-width: 100vw;
 }
 h1 {
     font-style: normal;
@@ -196,12 +191,13 @@ header {
 .btn-orange:hover {
     background-color: var(--btn-ora-hovr);
 }
-.top-wrapper img {
+.top-wrapper picture img {
     width: 372px;
+    height: 331px;
     border-radius: 20px;
     margin-top: 64px;
     margin-bottom: 19px;
-    overflow: hidden;
+    transform: translateX(-24px);
 }
 .mid-wrapper {
     position: relative;
