@@ -474,26 +474,16 @@ header {
 .bottom-wrapper {
     width: 100%;
     margin: auto;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
     margin-top: 140px;
+    display: grid;
+    grid-template-columns: 283px 283px;
+    column-gap: 80px;
+    row-gap: 80px;
 }
-.feats-gr1, .feats-gr2 {
-    width: 628px;
-    display: flex;
-    justify-content: space-between;
-}
-.feats-gr2 {
-    margin-top: 75px;
-}
+
 .feats {
-    width: 281px;
+    width: 283px;
     height: 289px;
-/*     display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: flex-start; */
  }
  .feats p {
     margin-top: 23px;
